@@ -1,47 +1,76 @@
-# Sınıf Tablosu
+# Sınıf Tablosu (HTML Uygulaması)
 
-Bu proje, bir HTML tablo örneğidir. "Sınıf Tablosu" başlığı altında öğrenci bilgilerini içeren düzenli bir tablo yapısı sunar.
-
-## İçerik
-
-- Öğrenci Numarası  
-- Adı  
-- Soyadı  
-- Notu  
-- Doğum Tarihi
-
-## Kullanılan Teknolojiler
-
-- HTML5    
-- Soft pastel renkler
-
-## Projede Neler Yapıldı?
-- HTML Tablo Yapısı Oluşturuldu:
-- Öğrencilerin bilgilerini göstermek için <table>, <tr>, <th> ve <td> etiketleri kullanılarak tablo yapısı oluşturuldu.
-- Tablo başlıkları “Öğrenci Numarası”, “Adı”, “Soyadı”, “Notu” ve “Doğum Tarihi” olarak belirlendi.
-- Tabloya border (kenarlık) eklendi.
-- Başlık satırına aquamarine arka plan rengi verilerek vurgulandı.
-- Hücrelerde metinler sola hizalandı ve aralarında boşluk olması için padding kullanıldı.
-- Her öğrenci için ayrı bir satır (row) oluşturuldu ve bilgileri ilgili sütunlara yerleştirildi.
-- Farklı sınav notları ve doğum tarihleri tabloya eklendi.
-- Sayfa başlığı <title> etiketi ile “Sınıf Tablosu” olarak ayarlandı.
-- İçerik <h1> etiketiyle başlıklandırıldı.
-
-## Görsel Tasarım
-
-Tablo soft renkler ile stilize edilmiştir. Tablodaki başlıklar ve satırlar farklı arka plan tonlarıyla ayrılmış, kullanıcı dostu bir görünüm sağlanmıştır.
-
-## Önizleme
-
-GitHub Pages linki:  
-👉 [Sınıf Tablosu Sayfasını Görüntüle](https://github.com/sercanyalcinkaya/Calismalarim/blob/main/sinif_tablosu.html)
+Bu proje, HTML kullanılarak oluşturulmuş düzenli bir **sınıf tablosu uygulamasıdır**. Öğrencilerin bilgileri tablo formatında listelenmiş, stil açısından yumuşak ve okunabilir bir görünüm hedeflenmiştir.
 
 ---
 
-## Projeyi Görüntüleme
+## 🎯 Proje Görevleri
 
-Eğer bu dosyayı yerel olarak açmak istersen:
-1. `sinif_tablosu.html` dosyasını indir
-2. Dosyaya çift tıklayarak tarayıcıda aç
+Bu proje aşağıdaki adımlar izlenerek oluşturulmuştur:
+
+### ✅ 1. HTML Dosyasının Oluşturulması
+- Yeni bir HTML dosyası oluşturuldu ve `sinif_tablosu.html` adı verildi.
+
+### ✅ 2. Temel HTML Yapısı
+- `<html>`, `<head>`, `<body>`, `<title>` ve `meta` etiketleri ile temel yapı kuruldu.
+
+### ✅ 3. Sayfa Başlığı
+- Sayfa başlığı olarak `<h1>SINIF TABLOSU</h1>` ifadesi eklendi.
+
+### ✅ 4. Tablo Başlıkları
+- `<table>` elementi ile tablo oluşturuldu.
+- `<thead>` satırına aşağıdaki başlıklar eklendi:
+  - Öğrenci Numarası
+  - Adı
+  - Soyadı
+  - Notu
+  - Doğum Tarihi ✅
+
+### ✅ 5. Öğrenci Bilgileri
+- Tabloda toplamda **8 öğrenci** yer aldı.
+- Her satırda öğrencinin:
+  - Numarası
+  - Adı
+  - Soyadı
+  - Notu
+  - Doğum tarihi yer alıyor.
+
+### ✅ 6. Stil Ayarları
+- Sayfa arka planı: `#f5f7fa` (soft gri-mavi)
+- Başlık kutusu arka planı: `#e0f7fa`
+- Tablo genişliği: `%100`
+- Hücre içi boşluk: `padding: 5px`
+- Tüm hücrelerde `border: 1px solid black`
+- Tablo satırları pastel tonlarda renklendirildi (`#f0f8ff`)
 
 ---
+
+## 🖼 Görsel Dosyası
+
+- Projeye ait bir ekran görüntüsü eklenmiştir:  
+  `assets/sinif_tablosu.png`
+
+Görsel olarak projeyi temsil eder ve ön izlemede kullanılabilir.
+
+---
+
+## 🌐 GitHub Pages ile Yayın
+
+Projeyi çevrimiçi görmek için aşağıdaki bağlantıya tıklayabilirsiniz:
+
+🔗 [Sınıf Tablosu - GitHub Pages](https://github.com/sercanyalcinkaya/Calismalarim/blob/main/sinif_tablosu.html)
+
+---
+
+
+## 💻 Kullanılan Teknolojiler
+
+- HTML5
+- Inline CSS (satır içi stil)
+- Visual Studio Code (VS Code)
+
+---
+
+## 📸 Önizleme
+
+![Sınıf Tablosu Görseli](assets/sinif_tablosu.png)
