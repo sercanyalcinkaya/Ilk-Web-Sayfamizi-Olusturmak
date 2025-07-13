@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="tr">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>KAYIT FORMU</title>
+  </head>
+  <body style="padding: 1px; text-align: center; background-color: #f4f6f9">
+    <h2>KAYIT FORMU</h2>
+    <form style="width: 100%; background-color: #ffffff">
+      <!-- Kişisel Bilgiler -->
+      <fieldset
+        style="
+          background-color: #f9fbfd;
+          border: 1px solid #dbe2ea;
+          padding: 15px;
+        "
+      >
+        <legend>Kişisel Bilgiler</legend>
+        <!-- Ad -->
+        <div>
+          <label for="name">Adınız:</label>
+          <br />
+          <input
+            type="text"
+            id="name"
+            style="
+              background-color: #eef2f7;
+              border: 1px solid #cdd5e0;
+              padding: 8px;
+            "
+          />
+        </div>
+        <!-- Soyad -->
+        <div>
+          <label for="surname">Soyadınız:</label>
+          <br />
+          <input
+            type="text"
+            id="surname"
+            style="
+              background-color: #eef2f7;
+              border: 1px solid #cdd5e0;
+              padding: 8px;
+            "
+          />
+        </div>
+        <!-- E-posta -->
+        <div>
+          <label for="email">E-posta</label>
+          <br />
+          <input
+            type="email"
+            id="email"
+            style="
+              background-color: #eef2f7;
+              border: 1px solid #cdd5e0;
+              padding: 8px;
+            "
+          />
+        </div>
+        <!-- Şifre -->
+        <div>
+          <label for="password">Şifre</label>
+          <br />
+          <input
+            type="password"
+            id="password"
+            style="
+              background-color: #eef2f7;
+              border: 1px solid #cdd5e0;
+              padding: 8px;
+            "
+          />
+        </div>
+        <!-- Cinsiyet -->
+        <div>
+          <label for="gender">Cinsiyet</label>
+          <br />
+          <input
+            type="radio"
+            id="male"
+            name="gender"
+            value="male"
+            style="
+              background-color: #eef2f7;
+              border: 1px solid #cdd5e0;
+              padding: 8px;
+            "
+          />Erkek
+          <br />
+          <input
+            type="radio"
+            id="female"
+            name="gender"
+            value="female"
+            style="
+              background-color: #eef2f7;
+              border: 1px solid #cdd5e0;
+              padding: 8px;
+            "
+          />Kadın
+        </div>
+        <!-- Favori Meyve Seçeneği -->
+        <div>
+          <label for="checkbox">Meyveniz:</label>
+          <br />
+          <select
+            id="fruit"
+            name="fruit"
+            style="
+              background-color: #eef2f7;
+              border: 1px solid #cdd5e0;
+              padding: 8px;
+            "
+          >
+            <option value="apple">Elma</option>
+            <option value="banana">Muz</option>
+            <option value="orange">Portakal</option>
+            <option value="strawberry">Çilek</option>
+          </select>
+        </div>
+      </fieldset>
+      <!-- İletişim Bilgileri -->
+      <fieldset
+        style="
+          background-color: #f9fbfd;
+          border: 1px solid #dbe2ea;
+          padding: 15px;
+        "
+      >
+        <legend>Bizimle İletişime Geçebilirsiniz</legend>
+        <!-- Mesaj Alanı -->
+        <div>
+          <label for="message">Mesajınız:</label>
+          <br />
+          <textarea
+            id="message"
+            name="message"
+            rows="4"
+            cols="50"
+            style="
+              background-color: #eef2f7;
+              border: 1px solid #cdd5e0;
+              padding: 10px;
+            "
+          ></textarea>
+          <div>
+            <input
+              type="submit"
+              value="Gönder"
+              style="background-color: #4a90e2; color: white; padding: 10px"
+            />
+          </div>
+        </div>
+      </fieldset>
+    </form>
+  </body>
+</html>
