@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="tr">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Kayıt Formu</title>
+  </head>
+  <body>
+    <form>
+      <h2>Kayıt Formu</h2>
+      <!--Ad-->
+      <div>
+        <label for="name">Ad:</label>
+        <br />
+        <input type="text" id="name" name="name" />
+      </div>
+      <!-- Soyad -->
+      <div>
+        <label for="surname">Soyad:</label>
+        <br />
+        <input type="text" id="surname" name="surname" />
+      </div>
+      <!-- E-posta -->
+      <div>
+        <label for="email">E-posta:</label>
+        <br />
+        <input type="text" id="email" name="email" />
+      </div>
+      <!-- Şifre -->
+      <div>
+        <label for="password">Şifre:</label>
+        <br />
+        <input
+          type="password"
+          id="password"
+          name="password"
+          minlength="8"
+          required
+        />
+      </div>
+      <!-- Doğum Tarihi -->
+      <div>
+        <label for="birthdate">Doğum tarihi:</label>
+        <br />
+        <input type="date" id="birthdate" required />
+      </div>
+      <br />
+      <!-- Cinsiyet -->
+      <div>
+        <label for="gender">Cinsiyet:</label>
+        <br />
+        <br />
+        <input type="radio" name="gender" value="male" /> Erkek
+        <br />
+        <input type="radio" name="gender" value="female" /> Kadın
+      </div>
+      <!-- !-- Checkbox Input -->
+      <div>
+        <input type="checkbox" id="terms" name="terms" required />
+        <label for="terms">Kullanım şartlarını kabul ediyorum</label>
+      </div>
+      <!-- Mesaj -->
+      <div>
+        <label for="address">Mesaj:</label>
+        <br />
+        <textarea id="address" name="address" rows="4" cols="50"></textarea>
+      </div>
+      <!-- Ülke Seçimi -->
+      <div>
+        <label for="country">Ülke:</label>
+        <br />
+        <select id="country" name="country" style="width: 70px">
+          <option value="turkey">Türkiye</option>
+          <option value="usa">Amerika Birleşik Devletleri</option>
+          <option value="uk">Birleşik Krallık</option>
+        </select>
+      </div>
+      <!-- Gönder Butonu -->
+      <div>
+        <input type="submit" value="Gönder" />
+      </div>
+    </form>
+  </body>
+</html>
+
+</html>
